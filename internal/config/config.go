@@ -10,6 +10,9 @@ type Config struct {
 	Postgresql struct {
 		Conn string `yaml:"conn"`
 	} `yaml:"postgresql"`
+	Server struct {
+		Port string `yaml:"port"`
+	} `yaml:"server"`
 	Stripe struct {
 		BaseURL string `yaml:"baseurl"`
 		Key     string `yaml:"key"`

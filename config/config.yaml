@@ -1,6 +1,9 @@
 postgresql:
   conn: "user=postgres password=postgres dbname=naive-ticketing port=5432 host=localhost sslmode=disable"
 
+server:
+  port: ":8081"
+
 stripe:
   baseurl: "https://api.stripe.com"
   key: "sk_test_4eC39HqLyjWDarjtT1zdp7dc"
